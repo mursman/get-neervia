@@ -1,0 +1,56 @@
+name: Bug report
+description: Something went wrong in the Neervia app? Report it here.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it — the more of this you can fill in, the faster it gets fixed.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app?
+      options:
+        - Android app
+        - Windows app
+        - Both / not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in the app under Settings / About (for example 1.0.0).
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device & system
+      placeholder: "e.g. Galaxy S22, Android 16 / Windows 11 laptop"
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: What went wrong, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: |
+        1. …
+        2. …
+        3. …
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help a lot. The app's Settings → Diagnostics can also copy a diagnostics bundle — paste it only if you are comfortable, and never include the contents of private files.

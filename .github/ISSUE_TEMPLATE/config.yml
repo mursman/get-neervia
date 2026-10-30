@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Neervia website
+    url: https://neervia.web.app
+    about: Download the apps and read about Neervia.
+  - name: Privacy policy
+    url: https://neervia.web.app/privacy
+    about: How Neervia handles your data (it stays on your own network).
