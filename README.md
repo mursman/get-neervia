@@ -57,7 +57,7 @@ Download `Neervia.apk` from
 [Releases](https://github.com/mursman/get-neervia/releases) (or the
 [latest release directly](https://github.com/mursman/get-neervia/releases/latest/download/Neervia.apk))
 and open it. Your phone may ask you to allow installs from your browser,
-just for this install. Neervia is also on its way to Google Play and the
+just for this install. Neervia is also on Google Play and the
 Microsoft Store — see the [website](https://neervia.web.app).
 
 ### Any browser
